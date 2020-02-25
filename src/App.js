@@ -8,7 +8,7 @@ class App extends React.Component {
 
     state={
         data: null,
-        user: "Vasy"
+        date: new Date()
     };
 
     componentDidMount() {
