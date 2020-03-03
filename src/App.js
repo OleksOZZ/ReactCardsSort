@@ -130,7 +130,7 @@ class App extends React.Component {
                     })
                     : <h1>"Loading"</h1>
                 }
-                <InputCard applyHndler={this.applyHandler}/>
+                <InputCard applyHandler={this.applyHandler}/>
             </div>
         )
     }

@@ -1,9 +1,9 @@
 import React from 'react';
 import App from "../../App";
 
-function InputCard({applyHandler}) {
+function InputCard(props) {
     const apply = () => {
-        applyHandler();
+        props.applyHandler();
     };
 
 
